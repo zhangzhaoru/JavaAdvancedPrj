@@ -34,7 +34,7 @@ public class IOFileUtils {
      * @return 删除成功返回true, 否则返回false
      */
     public static boolean deleteFile(File dirFile) {
-        Collections
+
         // 如果dir对应的文件不存在，则退出
         if (!dirFile.exists()) {
             return false;
